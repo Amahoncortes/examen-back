@@ -1,0 +1,2 @@
+docker build -t node-app
+docker run -d --name examen-back -p 8001:8001 node-app
